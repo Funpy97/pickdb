@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='pickdb',
-    packages=['pickdb'],
-    version='0.0.3a',
+    packages=['pickdb', 'pickdb.modules'],
+    version='0.0.4a',
     license='MIT',
     long_description='More information on: https://github.com/Funpy97/pickdb',
     long_description_content_type='text/markdown',
@@ -11,7 +11,7 @@ setup(
     author='Marino Iannarelli',
     author_email='marinoiannarelli97@gmail.com',
     url='https://github.com/Funpy97/pickdb',
-    download_url='https://github.com/Funpy97/pickdb/archive/v0.0.3-alpha.tar.gz',
+    download_url='https://github.com/Funpy97/pickdb/archive/v0.0.4-alpha.tar.gz',
     keywords=['database', 'pickle', 'db'],
     classifiers=[
         'Development Status :: 3 - Alpha',
