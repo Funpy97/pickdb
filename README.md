@@ -94,7 +94,7 @@ Process finished with exit code 0
 ```
 """
 Create a table called 'test' in a database called 'db' and
-insert in the table 20 fake user using the random module.
+insert in the table 10 fake user using the random module.
 """
 
 from pickdb import *
@@ -121,7 +121,7 @@ if __name__ == '__main__':
     names = ['Carl', 'Mark', 'Anna', 'Nicole', 'David']
     age = range(20, 30)
 
-    records = 20
+    records = 10
 
     for _ in range(records):
         table.insert({'Name': random.choice(names), 'Email': 'example@test.com', 'Age': random.choice(age)},
