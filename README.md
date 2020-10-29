@@ -1,4 +1,4 @@
-# pickdb v0.0.1a
+# pickdb v0.0.2a
 A simple and easy database manager based on pickle that provide to:
 - Create database
 - Create tables in the database
