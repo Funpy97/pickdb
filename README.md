@@ -196,7 +196,7 @@ if __name__ == '__main__':
     """ Get the list of the id where 'Name' is 'David' """
     id_list = table.records_id({'Name': 'David'})
 
-    """ Update the 'Email' to 'example2@test.com' for each id in the list_id """
+    """ Update the 'Email' with 'example2@test.com' for each id in the id_list """
     for _id in id_list:
         table.update(_id, {'Email': 'example2@test.com'}, syncsave=False)
 
@@ -223,7 +223,7 @@ if __name__ == '__main__':
 ```
 
 
-*Print records*
+*Print the records*
 ```
     """ Print the records where 'Name' is 'Mark' """
     print(table.get_records(table.records_id({'Name': 'Mark'})))
