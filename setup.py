@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='pickdb',
     packages=['pickdb'],
-    version='0.0.1a',
+    version='0.0.2a',
     license='MIT',
     long_description='More information on: https://github.com/Funpy97/pickdb',
     long_description_content_type='text/markdown',
