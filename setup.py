@@ -5,7 +5,7 @@ setup(
     packages=['pickdb'],
     version='0.1',
     license='MIT',
-    long_description=open('README.md', encoding='utf-8').read(),
+    long_description=open('README.md', encoding='utf-8').read().replace('\n', ' '),
     long_description_content_type='text/markdown',
     description='A simple and easy database manager based on pickle.',
     author='Marino Iannarelli',
