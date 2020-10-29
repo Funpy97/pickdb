@@ -11,7 +11,7 @@ setup(
     author='Marino Iannarelli',
     author_email='marinoiannarelli97@gmail.com',
     url='https://github.com/Funpy97/pickdb',
-    download_url='https://github.com/Funpy97/pickdb/archive/v0.0.1-alpha.tar.gz',
+    download_url='https://github.com/Funpy97/pickdb/archive/v0.0.2-alpha.tar.gz',
     keywords=['database', 'pickle', 'db'],
     classifiers=[
         'Development Status :: 3 - Alpha',
