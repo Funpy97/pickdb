@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='pickdb',
     packages=['pickdb'],
-    version='0.1',
+    version='0.0.1',
     license='MIT',
     long_description=open('README.md', encoding='utf-8').read().replace('\n', ' '),
     long_description_content_type='text/markdown',
