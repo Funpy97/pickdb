@@ -1,4 +1,4 @@
 """ Pickdb is a database mangaer based on Pickle. """
 
-from pickdb.modules.exceptions import *
-from pickdb.modules.dbmanager import PickleDB
+from .modules.exceptions import *
+from .modules.dbmanager import PickleDB
