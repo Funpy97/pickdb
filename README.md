@@ -94,7 +94,7 @@ Process finished with exit code 0
 ```
 """
 Create a table called 'test' in a database called 'db' and
-insert in the table 10 fake user using the random module.
+insert in the table 10 fake users using the random module.
 """
 
 from pickdb import *
