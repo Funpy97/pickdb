@@ -3,9 +3,9 @@ from distutils.core import setup
 setup(
     name='pickdb',
     packages=['pickdb'],
-    version='0.0.1',
+    version='0.0.1a',
     license='MIT',
-    long_description=open('README.md', encoding='utf-8').read().replace('\n', ' '),
+    long_description='More information on: https://github.com/Funpy97/pickdb',
     long_description_content_type='text/markdown',
     description='A simple and easy database manager based on pickle.',
     author='Marino Iannarelli',
