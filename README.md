@@ -1,8 +1,8 @@
 # pickdb v0.0.4a
-A simple and easy database manager based on pickle that provide to:
+A simple and easy database manager based on pickle that provides to:
 - Create database
-- Create tables in the database
-- Manager tables in the database
+- Create the tables in the database
+- Manage the tables in the database
 
 
 Example code
@@ -92,3 +92,4 @@ is_matched_n time (on 9512): 3ms
 
 Process finished with exit code 0
 ```
+
