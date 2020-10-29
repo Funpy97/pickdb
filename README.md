@@ -112,7 +112,7 @@ if __name__ == '__main__':
         db = PickleDB(db_name)
 
     try:
-        table = db.add(table_name, columns = columns)
+        table = db.add(table_name, columns=columns)
 
     except TableExistsError:
         db.delete(table_name)
