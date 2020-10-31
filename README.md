@@ -6,7 +6,7 @@ A simple and easy database manager based on pickle that provides to:
 
 
 *Example code*
-```
+```python
 from pickdb import *
 import random
 import time
@@ -91,7 +91,7 @@ Process finished with exit code 0
 ```
 
 # Some other example
-```
+```python
 """
 Create a table called 'test' in a database called 'db' and
 insert in the table 10 fake users using the random module.
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 ```
 
 *Print the table*
-```
+```python
     print(table)
 ```
 *Output*
@@ -161,7 +161,7 @@ if __name__ == '__main__':
 ```
 
 *Delete records*
-```
+```python
     """ Delete records where 'Age' is 23 or 'Age' is 24 """
     table.del_records([{'Age': 23}, {'Age': 24}])
 
@@ -192,7 +192,7 @@ if __name__ == '__main__':
 
 
 *Update records*
-```
+```python
     """ Get the list of the id where 'Name' is 'David' """
     id_list = table.records_id({'Name': 'David'})
 
@@ -224,7 +224,7 @@ if __name__ == '__main__':
 
 
 *Print the records*
-```
+```python
     """ Print the records where 'Name' is 'Mark' """
     print(table.get_records(table.records_id({'Name': 'Mark'})))
 ```
@@ -234,7 +234,7 @@ if __name__ == '__main__':
 ```
 
 *Chek if a record is matched*
-```
+```python
     """ Print if there are 2 records with age 27 """
     print(table.is_matched_n({'Age': 27}, n=2))
 ```
