@@ -233,7 +233,7 @@ if __name__ == '__main__':
 [{'Name': 'Mark', 'Email': 'example@test.com', 'Age': 21}]
 ```
 
-*Chek if a record is matched*
+*Check if a record is matched*
 ```python
     """ Print if there are 2 records with age 27 """
     print(table.is_matched_n({'Age': 27}, n=2))
