@@ -1,4 +1,4 @@
-""" Define common exceptions for pickdb pakage """
+""" Define common exceptions for pickdb package """
 
 
 class DatabaseExistsError(Exception):
