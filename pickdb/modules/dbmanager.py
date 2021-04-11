@@ -16,7 +16,7 @@ class Table:
         self.name = name
         self.columns = ['id'] + list(str(data) for data in columns)
         self.__record_id = 0
-        self.__data = {cname: [] for cname in self.columns}
+        self.__data = {cname: [] for cname in self.columns}  # type: ignore
 
     def reset(self):
         """ Reset each column in the table.\n
